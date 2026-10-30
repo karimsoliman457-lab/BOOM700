@@ -4,7 +4,7 @@ import { readdirSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = import.meta.dirname;
-const BASE = '/GH-Arcade/';
+const BASE = '/BOOM700/';
 
 // Every games/<slug>/index.html becomes its own page. Folders starting with "_" (e.g. _template) are skipped.
 function discoverGames(): Record<string, string> {
